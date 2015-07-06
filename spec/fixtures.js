@@ -125,3 +125,5 @@ unparseableStrings = [
     '["foo", "bar"',
     '["foo", "bar\\"]'
 ];
+// console.log(JSON.stringify(stringifiableObjects));
+console.log(JSON.parse(parseableStrings));

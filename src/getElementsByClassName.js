@@ -25,9 +25,6 @@ var getElementsByClassName = function (className) {
 			}
 		})
 		if(element.hasChildNodes()){
-			// forEach(element.childNodes,function(child){
-			// 	iter(child);
-			// })
 			for(var i = 0; i < element.childNodes.length; i++){
 				iter(element.childNodes[i]);
 			}
